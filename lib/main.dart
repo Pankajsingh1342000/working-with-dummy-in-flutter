@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:working_with_dummy/screen/image_picker.dart';
 import 'package:working_with_dummy/viewmodel/mentors_screen_viewmodel.dart';
 import 'package:working_with_dummy/screen/mentor_list_screen.dart';
 
@@ -20,7 +21,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MentorListView(),
+      home: SignupPage(),
+      // SignupPage(),
+      // const MentorListView(),
       debugShowCheckedModeBanner: false,
     );
   }
